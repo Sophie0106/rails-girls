@@ -16,14 +16,10 @@
 
 body { padding-top: 100px; 
 
-    background-color: antiquewhite;
-    color: rgb(45, 43, 41);
+    background-color:beige;
+    color: black;
 
 }
-
-p {
-    color: rgb(174, 173, 173);
-  }
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
