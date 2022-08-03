@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :comments
   get 'pages/info'
   root to: redirect('/ideas')
   resources :ideas
+  resources :users
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
